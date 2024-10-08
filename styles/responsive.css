@@ -1,16 +1,24 @@
 @media (min-width: 481px) {
 	:root {
-		
+		--container-width: 85%;
 	}
 
-	
+	.nav__mobile {
+		display: none;
+	}
+
+	.nav__not-mobile {
+		display: flex;
+		justify-content: space-between;
+		padding: 24px 0;
+	}
 
 	
 }
 
 @media (min-width: 1024px) {
 	:root {
-		
+		--container-width: 80%;
 	}
 
 	
@@ -19,7 +27,7 @@
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
 @media (min-width: 1440px) {
 	:root {
-		
+		--container-width: 75%;
 	}
 
 	
