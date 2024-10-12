@@ -10,8 +10,6 @@
 		<link rel="stylesheet" href="/styles/index.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
 			rel="stylesheet"
@@ -31,12 +29,12 @@
 					<div class="nav__content container">
 						<div class="nav__logo">
 							<img
-								src="/media/logos/cirene-logo-black.png"
+								src="/media/logos/cirene-logo-transp.png"
 								width="Logo de Cirene Teatro de cabeza de león"
 							/>
 						</div>
 						<div class="menu__button" role="button">
-							<img src="/media/icons/menu.png" alt="Botón de menu" />
+							<img src="/media/icons/menu-white.png" alt="Botón de menu" />
 						</div>
 					</div>
 				</nav>
@@ -44,7 +42,7 @@
 					<div class="nav__content container">
 						<div class="nav__logo">
 							<img
-								src="/media/logos/cirene-logo-black.png"
+								src="/media/logos/cirene-logo-transp.png"
 								width="Logo de Cirene Teatro de cabeza de león"
 							/>
 						</div>
@@ -52,22 +50,29 @@
 							<ul>
 								<li><a href="/index.html">Inicio</a></li>
 								<li>
-									<a href="/pages/about-us/about-us.html">¿Quiénes somos?</a>
+									<a href="/pages/about-us/about-us.html">El grupo</a>
+								</li>
+								<li>
+									<a href="/pages/plays/plays.html">Obras</a>
 								</li>
 								<li><a href="/pages/contact/contact.html">Contacto</a></li>
 								<li>
 									<a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
 								</li>
 							</ul>
-							<div>
-								<label for="site-search">Busca en nuestra web:</label>
-								<input
-									type="search"
-									id="site-search"
-									name="site-search"
-									placeholder="Ej: próximos estrenos"
-								/>
-								<button type="submit">Buscar</button>
+							<div class="nav__search">
+								<label for="site-search">
+									<input
+										type="search"
+										id="site-search"
+										name="site-search"
+										placeholder="Busca en la web..."
+										class="nav__searchbox"
+									/>
+								</label>
+								<div class="search__button" role="button">
+									<img src="/media/icons/lupa.png" alt="Botón de lupa de búsqueda" />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -77,7 +82,7 @@
 				<section id="hero">
 					<div class="hero__content container">
 						<h1>CIRENE TEATRO</h1>
-						<p><strong>Vive el teatro desde dentro</strong></p>
+						<!-- <p><strong>Vive el teatro desde dentro</strong></p> -->
 					</div>
 				</section>
 				<section id="playing">
@@ -89,8 +94,8 @@
 							</div>
 							<div class="playing__image">
 								<img
-									src="/images/cartel-hermanas.webp"
-									alt="cartel de la obra Un funeral de muerte"
+									src="/media/posters/cartel-hermanas.webp"
+									alt="cartel de la obra Hermanas"
 								/>
 							</div>
 							<a href="/pages/sell-tickets/sell-tickets.html">
@@ -109,96 +114,126 @@
 							<p>
 								<em>CITA DE LA OBRA DE TEATRO</em>
 							</p>
-							<p><strong>Hermanas, 2012</strong></p>
+							<p><strong>'Hermanas' de Carol López (2012)</strong></p>
 						</div>
 					</div>
 				</section>
-
 				<section id="blog">
-					<div>
-						<h2>Blog</h2>
-						<p>Sigue las últimas noticias del grupo</p>
-					</div>
-					<div class="blog__articles">
-						<article class="article">
-							<div class="article__item">
+					<div class="blog__content container divider">
+						<div class="blog__title">
+							<h2>Blog Cirenaico</h2>
+							<p>Últimas noticias del grupo</p>
+						</div>
+						<div class="blog__articles">
+							<article class="article">
 								<div class="article__image">
 									<img
-										src="./images/gala-2023.jpg"
+										src="./media/images/post-mortem-blog.jpg"
 										alt="actuación de la gala del Festival UPM 2023"
 									/>
 								</div>
 								<div class="article__text">
-									<h3>
-										Éxito de Entre Bambalinas en el XXX Festival de Teatro de la
-										UPM
-									</h3>
+									<h3>Titular del artículo</h3>
 									<p>
-										Nuestro grupo se hizo con el premio a mejor obra amateur del
-										Festival de la UPM con 'Chicago', en una gala marcada por el
-										buen rollo y el compañerismo entre grupos
+										Va usté muy cargadoo al ataquerl diodeno no puedor a wan no
+										te digo trigo por no llamarte Rodrigor te voy a borrar el
+										cerito la caidita
 									</p>
 								</div>
-							</div>
-						</article>
-						<article class="article">
-							<div class="article__item">
+							</article>
+							<article class="article">
 								<div class="article__image">
 									<img
-										src="./images/gala-2023.jpg"
+										src="./media/images/post-mortem-blog.jpg"
 										alt="actuación de la gala del Festival UPM 2023"
 									/>
 								</div>
 								<div class="article__text">
-									<h3>
-										Éxito de Entre Bambalinas en el XXX Festival de Teatro de la
-										UPM
-									</h3>
+									<h3>Titular del artículo</h3>
 									<p>
-										Nuestro grupo se hizo con el premio a mejor obra amateur del
-										Festival de la UPM con 'Chicago', en una gala marcada por el
-										buen rollo y el compañerismo entre grupos
+										Va usté muy cargadoo al ataquerl diodeno no puedor a wan no
+										te digo trigo por no llamarte Rodrigor te voy a borrar el
+										cerito la caidita
 									</p>
 								</div>
-							</div>
-						</article>
+							</article>
+							<article class="article">
+								<div class="article__image">
+									<img
+										src="./media/images/post-mortem-blog.jpg"
+										alt="actuación de la gala del Festival UPM 2023"
+									/>
+								</div>
+								<div class="article__text">
+									<h3>Titular del artículo</h3>
+									<p>
+										Va usté muy cargadoo al ataquerl diodeno no puedor a wan no
+										te digo trigo por no llamarte Rodrigor te voy a borrar el
+										cerito la caidita
+									</p>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article__image">
+									<img
+										src="./media/images/post-mortem-blog.jpg"
+										alt="actuación de la gala del Festival UPM 2023"
+									/>
+								</div>
+								<div class="article__text">
+									<h3>Titular del artículo</h3>
+									<p>
+										Va usté muy cargadoo al ataquerl diodeno no puedor a wan no
+										te digo trigo por no llamarte Rodrigor te voy a borrar el
+										cerito la caidita
+									</p>
+								</div>
+							</article>
+						</div>
 					</div>
 				</section>
 			</main>
 			<footer>
-				<div>
-					<ol>
-						<li><a href="#">Aviso legal</a></li>
-						<li><a href="#">Política de cookies</a></li>
-						<li><a href="/pages/contact/contact.html">Contacto</a></li>
-						<li>
-							<a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
-						</li>
-					</ol>
-					<ul>
-						<li>
-							<a href="#">
-								<img src="/images/facebook.png" alt="facebook" width="20px" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="/images/instagram.png" alt="instagram" width="20px" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="/images/x-twitter.png" alt="x-twitter" width="20px" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="/images/tik-tok.png" alt="tiktok" width="20px" />
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div>
+				<section id="footer__legal">
+					<div class="legal__content container">
+						<ul>
+							<li><a href="#">Aviso legal</a></li>
+							<li><a href="#">Política de cookies</a></li>
+							<li><a href="/pages/contact/contact.html">Contacto</a></li>
+							<li>
+								<a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="footer__rrss">
+					<div class="rrss__content container">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="/media/icons/facebook.png" alt="facebook" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/instagram.png" alt="instagram" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/x-twitter.png" alt="x-twitter" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/tik-tok.png" alt="tiktok" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<div class="up-arrow">
 					<a href="#">&#94;</a>
 				</div>
 			</footer>
