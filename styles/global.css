@@ -47,6 +47,7 @@ a {
 	--secondary-color: #303030;
 	--font-color: #fff;
 	--title-size: 52px;
+	--section-title-size:
 }
 
 h1 {
@@ -193,6 +194,10 @@ main {
 }
 
 .booking__image img {
+	width: 100%;
+}
+
+#playing {
 	width: 100%;
 }
 
