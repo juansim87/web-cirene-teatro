@@ -1,8 +1,6 @@
 @import "/styles/global.css";
 @import "/styles/responsive.css";
 
-
-
 main {
 	width: 100%;
 	min-height: 100vh;
@@ -19,12 +17,13 @@ main {
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
+    border-bottom: solid 1px var(--font-color);
 }
 
 .form__fieldset {
-    padding: 28px;
-    border-radius: 8px;
-    border: 4px solid var(--primary-color);
+	padding: 28px;
+	border-radius: 8px;
+	border: 4px solid var(--primary-color);
 }
 
 .form__box {
@@ -49,18 +48,17 @@ main {
 input[type="email"],
 textarea {
 	width: 100%;
-    background-color: var(--primary-color);
-        border: none;
-        padding: 8px;
+	background-color: var(--primary-color);
+	border: none;
+    border-radius: 8px;
+	padding: 8px;
 }
-
 
 .form__item input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
-    color: var(--font-color);
+	color: var(--font-color);
 }
-
 
 .form__activities {
 	display: grid;
@@ -68,10 +66,20 @@ textarea::placeholder {
 	gap: 8px;
 }
 
-
-.form__activities ~ a {
+.form__item p a {
     color: var(--primary-color);
-    font-weight: 600;
+	font-weight: 600;
+}
+
+.form__button button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form__button button:focus {
+    color: var(--font-color);
+    background-color: var(--primary-color);
 }
 
 @media (min-width: 481px) {
@@ -88,3 +96,6 @@ textarea::placeholder {
 	:root {
 	}
 }
+
+
+
