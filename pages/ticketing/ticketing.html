@@ -1,144 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
+		/>
+		<link rel="stylesheet" href="/styles/pages/ticketing.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Reserva de entradas</title>
+		<link
+			rel="shortcut icon"
+			href="/images/logo-entre-bambalinas/bambalinas-icon.png"
+			type="image/x-icon"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
-  />
-  <link rel="stylesheet" href="/styles/index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  />
-  <title>Reserva de entradas</title>
-  <link
-    rel="shortcut icon"
-    href="/images/logo-entre-bambalinas/bambalinas-icon.png"
-    type="image/x-icon"
-  />
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div>
-        <img src="/images/bambalinas-icon.png" width="50px" />
-      </div>
-      <div>
-        <ul>
-          <li><a href="/index.html">Inicio</a></li>
-          <li>
-            <a href="/pages/about-us/about-us.html">El grupo</a>
-          </li>
-          <li>
-            <a href="/pages/plays/plays.html">Obras</a>
-          </li>
-          <li><a href="/pages/contact/contact.html">Contacto</a></li>
-          <li>
-            <a href="/pages/ticketing/ticketing.html">Reservas</a>
-          </li>
-        </ul>
-        <div>
-          <label for="site-search">Busca en nuestra web:</label>
-          <input type="search" id="site-search" name="site-search" placeholder="Ej: próximos estrenos" />
-          <button type="submit">Buscar</button>
-        </div>
-      </div>
-    </nav>
-    <div>
-      <h1>Reserva tus entradas</h1>
-      <h2>Ahora en cartel</h2>
-      <div>
-        <p>Un funeral de muerte</p>
-        <img src="/images/funeral-de-muerte-cartel.jpg" alt="cartel de la obra Un funeral de muerte" width="300px" />
-      </div>
-
-      <h2>Próximamente</h2>
-      <div>
-        <p>Arsénico por compasión</p>
-        <img src="/images/arsenico-cartel.jpg" alt="cartel de la obra Arsénico por compasión" width="300px" />
-      </div>
-      <div>
-        <p>Match de impro</p>
-        <img src="/images/match-impro.jpg" alt="cartel del match de impro de abril" width="300px" />
-      </div>
-    </div>
-  </header>
-  <main>
-    <div>
-      <form action="#" method="post" enctype="application/x-www-form-urlencoded">
-        <fieldset>
-          <legend>Reserva tus entradas</legend>
-          <div>
-            <div>
-              <label for="name">Nombre</label><input type="text" id="name" name="name" placeholder="Escribe tu nombre"
-                minlength="4" maxlength="15" required />
-            </div>
-            <div>
-              <label for="last-name">Apellidos</label><input type="text" id="last-name" name="last-name"
-                placeholder="Escribe tu/s apellido/s" minlength="4" maxlength="25" required />
-            </div>
-            <div>
-              <label for="email">Email</label><input type="email" name="email" id="email"
-                placeholder="Escribe tu e-mail" required />
-            </div>
-            <div>
-              <label for="play">Obras en cartel</label><select name="play" id="play" required>
-                <option value="un-funeral-de-muerte">
-                  Un funeral de muerte
-                </option>
-                <option value="arsenico-por-compasion">
-                  Arsénico por compasión
-                </option>
-                <option value="impro-match">Match de impro</option>
-              </select>
-            </div>
-            <div>
-              <label for="play-date">Elige una fecha</label>
-              <input type="date" name="play-date" id="play-date" />
-            </div>
-            <div>
-              <label for="tickets">Nº de entradas</label>
-              <input type="number" id="tickets" name="tickets" min="1" max="6" />
-            </div>
-            <button type="submit">Reservar entradas</button>
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </main>
-  <footer>
-    <div>
-      <ol>
-        <li><a href="#">Aviso legal</a></li>
-        <li><a href="#">Política de cookies</a></li>
-        <li><a href="/pages/contact/contact.html">Contacto</a></li>
-        <li><a href="/pages/sell-tickets/sell-tickets.html">Reservas</a></li>
-      </ol>
-      <ul>
-        <li>
-          <a href="#"><img src="/images/facebook.png" alt="facebook" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/instagram.png" alt="instagram" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/x-twitter.png" alt="x-twitter" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/tik-tok.png" alt="tiktok" width="20px" /></a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <a href="#">&#94;</a>
-    </div>
-  </footer>
-</body>
-
+	<body>
+		<div class="body__content">
+			<header>
+				<nav class="nav__mobile">
+					<div class="nav__content container">
+						<div class="nav__logo">
+							<img
+								src="/media/logos/cirene-logo-transp.png"
+								width="Logo de Cirene Teatro de cabeza de león"
+							/>
+						</div>
+						<div class="menu__button" role="button">
+							<img src="/media/icons/menu-white.png" alt="Botón de menu" />
+						</div>
+					</div>
+				</nav>
+				<nav class="nav__not-mobile">
+					<div class="nav__content container">
+						<div class="nav__logo">
+							<img
+								src="/media/logos/cirene-logo-transp.png"
+								width="Logo de Cirene Teatro de cabeza de león"
+							/>
+						</div>
+						<div class="nav__menu">
+							<ul>
+								<li><a href="/index.html">Inicio</a></li>
+								<li>
+									<a href="/pages/about-us/about-us.html">El grupo</a>
+								</li>
+								<li>
+									<a href="/pages/record/record.html">Historial</a>
+								</li>
+								<li><a href="/pages/contact/contact.html">Contacto</a></li>
+								<li>
+									<a href="/pages/ticketing/ticketing.html">Reservas</a>
+								</li>
+							</ul>
+							<div class="nav__search">
+								<label for="site-search">
+									<input
+										type="search"
+										id="site-search"
+										name="site-search"
+										placeholder="Busca en la web..."
+										class="nav__searchbox"
+									/>
+								</label>
+								<div class="search__button" role="button">
+									<img
+										src="/media/icons/lupa.png"
+										alt="Botón de lupa de búsqueda"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<div>
+					<form
+						action="#"
+						method="post"
+						enctype="application/x-www-form-urlencoded"
+					>
+						<fieldset>
+							<legend>Reserva tus entradas</legend>
+							<div>
+								<div>
+									<label for="name">Nombre</label>
+									<input
+										type="text"
+										id="name"
+										name="name"
+										placeholder="Escribe tu nombre"
+										minlength="4"
+										maxlength="15"
+										required
+									/>
+								</div>
+								<div>
+									<label for="last-name">Apellidos</label>
+									<input
+										type="text"
+										id="last-name"
+										name="last-name"
+										placeholder="Escribe tu/s apellido/s"
+										minlength="4"
+										maxlength="25"
+										required
+									/>
+								</div>
+								<div>
+									<label for="email">Email</label>
+									<input
+										type="email"
+										name="email"
+										id="email"
+										placeholder="Escribe tu e-mail"
+										required
+									/>
+								</div>
+								<div>
+									<label for="play">Obras en cartel</label>
+									<select name="play" id="play" required>
+										<option value="un-funeral-de-muerte">
+											Un funeral de muerte
+										</option>
+										<option value="arsenico-por-compasion">
+											Arsénico por compasión
+										</option>
+										<option value="impro-match">Match de impro</option>
+									</select>
+								</div>
+								<div>
+									<label for="play-date">Elige una fecha</label>
+									<input type="date" name="play-date" id="play-date" />
+								</div>
+								<div>
+									<label for="tickets">Nº de entradas</label>
+									<input
+										type="number"
+										id="tickets"
+										name="tickets"
+										min="1"
+										max="6"
+									/>
+								</div>
+								<button type="submit">Reservar entradas</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</main>
+			<footer>
+				<section id="footer__legal">
+					<div class="legal__content container">
+						<ul>
+							<li><a href="#">Aviso legal</a></li>
+							<li><a href="#">Política de cookies</a></li>
+							<li><a href="/pages/contact/contact.html">Contacto</a></li>
+							<li>
+								<a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="footer__rrss">
+					<div class="rrss__content container">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="/media/icons/facebook.png" alt="facebook" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/instagram.png" alt="instagram" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/x-twitter.png" alt="x-twitter" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/tik-tok.png" alt="tiktok" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</body>
 </html>

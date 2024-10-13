@@ -1,131 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
+		/>
+		<link rel="stylesheet" href="/styles/pages/contact.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Contacto de Cirene Teatro</title>
+		<link
+			rel="shortcut icon"
+			href="/images/logo-entre-bambalinas/bambalinas-icon.png"
+			type="image/x-icon"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
-  />
-  <link rel="stylesheet" href="/styles/index.css" />
-  <link rel="stylesheet" href="/styles/pages/contact.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  />
-  <title>Contacto de Cirene Teatro</title>
-  <link
-    rel="shortcut icon"
-    href="/images/logo-entre-bambalinas/bambalinas-icon.png"
-    type="image/x-icon"
-  />
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div>
-        <img src="/images/bambalinas-icon.png" width="50px" />
-      </div>
-      <div>
-        <ul>
-          <li><a href="/index.html">Inicio</a></li>
-          <li>
-            <a href="/pages/about-us/about-us.html">El grupo</a>
-          </li>
-          <li>
-            <a href="/pages/plays/plays.html">Obras</a>
-          </li>
-          <li><a href="/pages/contact/contact.html">Contacto</a></li>
-          <li>
-            <a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
-          </li>
-        </ul>0
-        <div>
-          <label for="site-search">Busca en nuestra web:</label>
-          <input type="search" id="site-search" name="site-search" placeholder="Ej: próximos estrenos" />
-          <button type="submit">Buscar</button>
-        </div>
-      </div>
-    </nav>
-    <div>
-      <h1>Contacta con nosotros</h1>
-      <p>¿Tienes alguna pregunta o sugerencia?</p>
-    </div>
-  </header>
-  <main>
-    <form action="#" method="post" enctype="application/x-www-form-urlencoded">
-      <fieldset>
-        <legend>Formulario de contacto</legend>
-        <div>
-          <div>
-            <label for="name">Nombre</label><input type="text" id="name" name="name" placeholder="Escribe tu nombre"
-              minlength="4" maxlength="15" required />
-          </div>
-          <div>
-            <label for="last-name">Apellidos</label><input type="text" id="last-name" name="last-name"
-              placeholder="Escribe tu/s apellido/s" minlength="4" maxlength="25" required />
-          </div>
-          <div>
-            <label for="email">Email</label><input type="email" name="email" id="email" placeholder="Escribe tu e-mail"
-              required />
-          </div>
-          <div>
-            <label for="info">¿Quieres recibir información sobre nuestras actividades?</label>
-            <input type="checkbox" name="info" id="info" value="theatre-plays" /><span>Próximos estrenos</span>
-            <input type="checkbox" name="info" id="info" value="courses" /><span>Cursos</span>
-            <input type="checkbox" name="info" id="info" value="workshop" /><span>Talleres teatrales</span>
-            <input type="checkbox" name="info" id="info" value="impro-match" /><span>Match de Impro</span>
-            <input type="checkbox" name="info" id="info" value="role-playing" /><span>Rol en vivo</span>
-          </div>
-          <div>
-            <label for="message">Consúltanos tus dudas</label>
-            <br />
-            <textarea name="message" id="message" cols="20" rows="5"
-              placeholder="Escríbenos cualquier duda o propuesta que tengas para nosotros" required></textarea>
-            <p>
-              O envíanos un correo a
-              <a href="mailto:info@entrebambalinas.es">info@entrebambalinas.es</a>
-            </p>
-          </div>
-          <div>
-            <button type="reset">Limpiar campos</button>
-            <button type="submit">Enviar formulario</button>
-          </div>
-        </div>
-      </fieldset>
-    </form>
-  </main>
-  <footer>
-    <div>
-      <ol>
-        <li><a href="#">Aviso legal</a></li>
-        <li><a href="#">Política de cookies</a></li>
-        <li><a href="/pages/contact/contact.html">Contacto</a></li>
-        <li><a href="/pages/sell-tickets/sell-tickets.html">Reservas</a></li>
-      </ol>
-      <ul>
-        <li>
-          <a href="#"><img src="/images/facebook.png" alt="facebook" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/instagram.png" alt="instagram" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/x-twitter.png" alt="x-twitter" width="20px" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="/images/tik-tok.png" alt="tiktok" width="20px" /></a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <a href="#">&#94;</a>
-    </div>
-  </footer>
-</body>
-
+	<body>
+		<div class="body__content">
+			<header>
+				<nav class="nav__mobile">
+					<div class="nav__content container">
+						<div class="nav__logo">
+							<img
+								src="/media/logos/cirene-logo-transp.png"
+								width="Logo de Cirene Teatro de cabeza de león"
+							/>
+						</div>
+						<div class="menu__button" role="button">
+							<img src="/media/icons/menu-white.png" alt="Botón de menu" />
+						</div>
+					</div>
+				</nav>
+				<nav class="nav__not-mobile">
+					<div class="nav__content container">
+						<div class="nav__logo">
+							<img
+								src="/media/logos/cirene-logo-transp.png"
+								width="Logo de Cirene Teatro de cabeza de león"
+							/>
+						</div>
+						<div class="nav__menu">
+							<ul>
+								<li><a href="/index.html">Inicio</a></li>
+								<li>
+									<a href="/pages/about-us/about-us.html">El grupo</a>
+								</li>
+								<li>
+									<a href="/pages/record/record.html">Obras</a>
+								</li>
+								<li><a href="/pages/contact/contact.html">Contacto</a></li>
+								<li>
+									<a href="/pages/ticketing/ticketing.html">Reservas</a>
+								</li>
+							</ul>
+							<div class="nav__search">
+								<label for="site-search">
+									<input
+										type="search"
+										id="site-search"
+										name="site-search"
+										placeholder="Busca en la web..."
+										class="nav__searchbox"
+									/>
+								</label>
+								<div class="search__button" role="button">
+									<img
+										src="/media/icons/lupa.png"
+										alt="Botón de lupa de búsqueda"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<div class="form__content container">
+					<h2>Contacta con nosotros</h2>
+					<form
+						action="#"
+						method="post"
+						enctype="application/x-www-form-urlencoded"
+					>
+						<fieldset class="form__fieldset">
+							<legend>Información personal</legend>
+							<div class="form__box">
+								<div class="form__item">
+									<label for="name">Nombre y Apellidos</label>
+									<input
+										type="text"
+										id="name"
+										name="name"
+										placeholder="Ej: Juan Simón Abad"
+										minlength="15"
+										maxlength="40"
+										required
+									/>
+								</div>
+								<div class="form__item">
+									<label for="email">Email</label>
+									<input
+										type="email"
+										name="email"
+										id="email"
+										placeholder="Ej: claudefrollo1436@hotmail.com"
+										required
+									/>
+								</div>
+								<div class="form__item">
+									<label for="info">
+										¿Quieres recibir información sobre nuestras actividades?
+									</label>
+									<div class="form__activities">
+										<div class="activity">
+											<input
+												type="checkbox"
+												name="info"
+												id="info"
+												value="theatre-plays"
+											/>
+											<span>Próximos estrenos</span>
+										</div>
+										<div class="activity">
+											<input
+												type="checkbox"
+												name="info"
+												id="info"
+												value="courses"
+											/>
+											<span>Cursos</span>
+										</div>
+										<div class="activity">
+											<input
+												type="checkbox"
+												name="info"
+												id="info"
+												value="workshop"
+											/>
+											<span>Talleres teatrales</span>
+										</div>
+										<div class="activity">
+											<input
+												type="checkbox"
+												name="info"
+												id="info"
+												value="impro-match"
+											/>
+											<span>Match de Impro</span>
+										</div>
+									</div>
+								</div>
+								<div class="form__item">
+									<label for="message">Mándanos tus dudas</label>
+									<textarea
+										name="message"
+										id="message"
+										cols="20"
+										rows="5"
+										placeholder="Escríbenos cualquier duda o propuesta que tengas para nosotros"
+										required
+									></textarea>
+									<p>
+										O envíanos un correo a
+										<a href="mailto:info@cireneteatro.es">
+											info@cireneteatro.es
+										</a>
+									</p>
+								</div>
+								<div class="form__button">
+									<button type="submit">Enviar formulario</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</main>
+			<footer>
+				<section id="footer__legal">
+					<div class="legal__content container">
+						<ul>
+							<li><a href="#">Aviso legal</a></li>
+							<li><a href="#">Política de cookies</a></li>
+							<li><a href="/pages/contact/contact.html">Contacto</a></li>
+							<li>
+								<a href="/pages/sell-tickets/sell-tickets.html">Reservas</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="footer__rrss">
+					<div class="rrss__content container">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="/media/icons/facebook.png" alt="facebook" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/instagram.png" alt="instagram" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/x-twitter.png" alt="x-twitter" />
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/media/icons/tik-tok.png" alt="tiktok" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</body>
 </html>

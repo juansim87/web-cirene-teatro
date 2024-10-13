@@ -70,28 +70,27 @@
 		background-image: url("/media/images/eloisa-back.jpg");
 	}
 
-.blog__content {
-	gap: 40px;
-}
+	.blog__content {
+		gap: 40px;
+	}
 
-.blog__articles {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 40px 20px;
-}
+	.blog__articles {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 40px 20px;
+	}
 
-.article {
-	max-width: 100%;
-}
+	.article {
+		max-width: 100%;
+	}
 
-.article__image {
-	max-width: 320px;
-}
+	.article__image {
+		max-width: 320px;
+	}
 
-.article__text {
-	max-width: 320px;
-}
-
+	.article__text {
+		max-width: 320px;
+	}
 }
 
 @media (min-width: 1024px) {
