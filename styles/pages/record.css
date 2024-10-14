@@ -1,26 +1,97 @@
 @import "/styles/global.css";
 @import "/styles/responsive.css";
 
-
-
-
-@media (min-width: 481px) {
-    :root {
-
-    }
+main {
+	width: 100%;
 }
 
+.body__content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.record__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	gap: 16px;
+}
+
+.record__box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.record__play {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.play__poster {
+	max-width: 300px;
+}
+
+.play__poster img {
+	width: 100%;
+}
+
+.play__datasheet {
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.play__info {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.play__summary {
+	width: 100%;
+}
+
+@media (min-width: 481px) {
+	:root {
+	}
+
+	.record__play {
+		flex-direction: row;
+	}
+
+	.content-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.play__datasheet {
+		height: 100%;
+	}
+}
 
 @media (min-width: 1024px) {
 	:root {
-		
 	}
-
 }
-
 
 @media (min-width: 1440px) {
 	:root {
-		
 	}
 }
