@@ -8,7 +8,11 @@ main {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding-top: 100px;
+	padding-top: 72px;
+}
+
+form {
+	width: 100%;
 }
 
 .form__content {
@@ -17,7 +21,6 @@ main {
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
-    border-bottom: solid 1px var(--font-color);
 }
 
 .form__fieldset {
@@ -50,7 +53,7 @@ textarea {
 	width: 100%;
 	background-color: var(--primary-color);
 	border: none;
-    border-radius: 8px;
+	border-radius: 8px;
 	padding: 8px;
 }
 
@@ -67,25 +70,38 @@ textarea::placeholder {
 }
 
 .form__item p a {
-    color: var(--primary-color);
+	color: var(--primary-color);
 	font-weight: 600;
 }
 
 .form__button button {
-    padding: 8px;
-    border: none;
-    border-radius: 8px;
+	padding: 8px;
+	border: none;
+	border-radius: 8px;
 }
 
 .form__button button:focus {
-    color: var(--font-color);
-    background-color: var(--primary-color);
+	color: var(--font-color);
+	background-color: var(--primary-color);
 }
 
 @media (min-width: 481px) {
 	:root {
 	}
+	
+	.form__item input[type="text"],
+	input[type="email"]{
+		max-width: 50%;
+		
+	}
+	
+	.form__activities {
+	display: flex;
+	gap: 28px;
 }
+}
+
+
 
 @media (min-width: 1024px) {
 	:root {
@@ -96,6 +112,3 @@ textarea::placeholder {
 	:root {
 	}
 }
-
-
-
