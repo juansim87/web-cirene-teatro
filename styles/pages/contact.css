@@ -1,5 +1,6 @@
 @import "/styles/global.css";
 @import "/styles/responsive.css";
+@import "/styles/pages/utilities/forms.css";
 
 main {
 	width: 100%;
@@ -11,97 +12,21 @@ main {
 	padding-top: 72px;
 }
 
-form {
-	width: 100%;
-}
-
-.form__content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 24px;
-}
-
-.form__fieldset {
-	padding: 28px;
-	border-radius: 8px;
-	border: 4px solid var(--primary-color);
-}
-
-.form__box {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 40px;
-}
-
-.form__item {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 12px;
-}
-
-.form__item input[type="text"],
-input[type="email"],
-textarea {
-	width: 100%;
-	background-color: var(--primary-color);
-	border: none;
-	border-radius: 8px;
-	padding: 8px;
-}
-
-.form__item input[type="text"]::placeholder,
-input[type="email"]::placeholder,
-textarea::placeholder {
-	color: var(--font-color);
-}
-
 .form__activities {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 8px;
 }
 
-.form__item p a {
-	color: var(--primary-color);
-	font-weight: 600;
-}
-
-.form__button button {
-	padding: 8px;
-	border: none;
-	border-radius: 8px;
-}
-
-.form__button button:focus {
-	color: var(--font-color);
-	background-color: var(--primary-color);
-}
-
 @media (min-width: 481px) {
 	:root {
 	}
-	
-	.form__item input[type="text"],
-	input[type="email"]{
-		max-width: 50%;
-		
-	}
-	
+
 	.form__activities {
-	display: flex;
-	gap: 28px;
+		display: flex;
+		gap: 28px;
+	}
 }
-}
-
-
 
 @media (min-width: 1024px) {
 	:root {
@@ -110,5 +35,9 @@ textarea::placeholder {
 
 @media (min-width: 1440px) {
 	:root {
+	}
+
+	main {
+		min-height: 88vh;
 	}
 }

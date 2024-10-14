@@ -82,76 +82,68 @@
 				</nav>
 			</header>
 			<main>
-				<div>
+				<div class="form__content container divider">
+					<h2>Reserva tus entradas</h2>
 					<form
 						action="#"
 						method="post"
 						enctype="application/x-www-form-urlencoded"
 					>
-						<fieldset>
-							<legend>Reserva tus entradas</legend>
-							<div>
-								<div>
-									<label for="name">Nombre</label>
-									<input
-										type="text"
-										id="name"
-										name="name"
-										placeholder="Escribe tu nombre"
-										minlength="4"
-										maxlength="15"
-										required
-									/>
+						<fieldset class="form__fieldset">
+							<legend>Elige el espectáculo</legend>
+							<div class="form__box">
+								<div class="form__personal-info">
+									<div class="form__item">
+										<label for="name">Nombre y Apellido/s</label>
+										<input
+											type="text"
+											id="name"
+											name="name"
+											placeholder="Escribe tu nombre"
+											minlength="5"
+											maxlength="30"
+											required
+										/>
+									</div>
+									<div class="form__item">
+										<label for="email">Email</label>
+										<input
+											type="email"
+											name="email"
+											id="email"
+											placeholder="Escribe tu e-mail"
+											required
+										/>
+									</div>
 								</div>
-								<div>
-									<label for="last-name">Apellidos</label>
-									<input
-										type="text"
-										id="last-name"
-										name="last-name"
-										placeholder="Escribe tu/s apellido/s"
-										minlength="4"
-										maxlength="25"
-										required
-									/>
+								<div class="form__ticketing-info">
+									<div class="form__item">
+										<label for="play">Obras en cartel</label>
+										<select name="play" id="play" required>
+											<option value="hermanas">Hermanas</option>
+											<option value="te-toca-adivinar">Te toca adivinar</option>
+											<option value="te-toca-adivinar">Post-mortem</option>
+											<option value="impro-match">Match de impro</option>
+										</select>
+									</div>
+									<div class="form__item">
+										<label for="play-date">Elige una fecha</label>
+										<input type="date" name="play-date" id="play-date" />
+									</div>
+									<div class="form__item">
+										<label for="tickets">Nº de entradas</label>
+										<input
+											type="number"
+											id="tickets"
+											name="tickets"
+											min="1"
+											max="6"
+										/>
+									</div>
 								</div>
-								<div>
-									<label for="email">Email</label>
-									<input
-										type="email"
-										name="email"
-										id="email"
-										placeholder="Escribe tu e-mail"
-										required
-									/>
+								<div class="form__button">
+									<button type="submit">Reservar entradas</button>
 								</div>
-								<div>
-									<label for="play">Obras en cartel</label>
-									<select name="play" id="play" required>
-										<option value="un-funeral-de-muerte">
-											Un funeral de muerte
-										</option>
-										<option value="arsenico-por-compasion">
-											Arsénico por compasión
-										</option>
-										<option value="impro-match">Match de impro</option>
-									</select>
-								</div>
-								<div>
-									<label for="play-date">Elige una fecha</label>
-									<input type="date" name="play-date" id="play-date" />
-								</div>
-								<div>
-									<label for="tickets">Nº de entradas</label>
-									<input
-										type="number"
-										id="tickets"
-										name="tickets"
-										min="1"
-										max="6"
-									/>
-								</div>
-								<button type="submit">Reservar entradas</button>
 							</div>
 						</fieldset>
 					</form>
