@@ -2,6 +2,10 @@
 @import "/styles/responsive.css";
 @import "/styles/pages/utilities/forms.css";
 
+:root {
+	
+}
+
 main {
 	width: 100%;
 	min-height: 100vh;

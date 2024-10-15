@@ -47,13 +47,43 @@ a {
 	--secondary-color: #303030;
 	--font-color: #fff;
 	--title-size: 52px;
-	--section-title-size:
+	--section-title-size: 36px;
+	--play-title-size: 24px;
+	--year-font-size: 20px;
+	--synopsis-font-size: 20px;
+	--parr-font-size: 18px;
+	--parr-line-height: 1.3em;
+	/* --section-icon: url(); */
 }
 
 h1 {
 	font-family: "Bebas Neue";
 	font-size: var(--title-size);
 	letter-spacing: 4px;
+}
+
+h2 {
+	font-family: "Bebas Neue";
+	font-size: var(--section-title-size);
+	letter-spacing: 4px;
+}
+
+h2::before,
+h2::after {
+	content: var(--section-icon);
+}
+
+h3 {
+	font-size: var(--play-title-size);
+}
+
+h4 {
+	font-size: var(--synopsis-font-size);
+}
+
+p {
+	font-size: var(--parr-font-size);
+	line-height: var(--parr-line-height);
 }
 
 .container {
@@ -96,9 +126,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #00000036;
-    backdrop-filter: blur(20px);
-    border-radius: 50px;
-    padding: 0 20px;
+	backdrop-filter: blur(20px);
+	border-radius: 50px;
+	padding: 0 20px;
 }
 
 .nav__logo {
@@ -137,7 +167,7 @@ main {
 .hero__content {
 	width: 100%;
 	height: 100%;
-	background-image: url('/media/images/te-toca-adivinar-back.jpg');
+	background-image: url("/media/images/te-toca-adivinar-back.jpg");
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -249,10 +279,12 @@ main {
 
 .article__image {
 	width: 100%;
-	
+	max-height: 260px;
+	background-color: var(--font-color);
 }
 
 .article__image img {
+	height: 100%;
 	width: 100%;
 	border-radius: 16px;
 }
@@ -277,7 +309,6 @@ footer {
 
 #footer__legal {
 	width: 100%;
-	
 }
 
 .legal__content ul {

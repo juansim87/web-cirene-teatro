@@ -85,4 +85,8 @@ textarea::placeholder {
 		max-width: 50%;
 	}
 
+	.form__item input[type="date"] {
+		max-width: 25%;
+	}
+
 }

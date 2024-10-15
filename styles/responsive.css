@@ -2,6 +2,12 @@
 	:root {
 		--container-width: 90%;
 		--title-size: 80px;
+		--section-title-size: 48px;
+		--play-title-size: 32px;
+		--year-font-size: 26px;
+		--synopsis-font-size: 24px;
+		--parr-font-size: 22px; 
+		--parr-line-height: 1.2em;
 	}
 
 	h1 {
@@ -97,12 +103,19 @@
 	:root {
 		--container-width: 80%;
 		--title-size: 100px;
+		--section-title-size: 72px;
+		--play-title-size: 52px;
+		--year-font-size: 42px;
+		--synopsis-font-size: 40px;
+		--parr-font-size: 26px;
+		--parr-line-height: 1.1em;
 	}
 
 	h1 {
 		margin-top: -16px;
 		letter-spacing: 18px;
 	}
+
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
