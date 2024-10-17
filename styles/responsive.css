@@ -8,6 +8,7 @@
 		--synopsis-font-size: 24px;
 		--parr-font-size: 22px; 
 		--parr-line-height: 1.2em;
+		--section-icon: url(/media/icons/blue-ticket.png);
 	}
 
 	h1 {
