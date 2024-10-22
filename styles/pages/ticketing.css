@@ -2,6 +2,11 @@
 @import "/styles/responsive.css";
 @import "/styles/pages/utilities/forms.css";
 
+
+:root {
+	--section-icon: url(/media/icons/blue-ticket.png);
+}
+
 main {
 	width: 100%;
 	min-height: 76vh;

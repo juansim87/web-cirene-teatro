@@ -1,6 +1,10 @@
 @import "/styles/global.css";
 @import "/styles/responsive.css";
 
+:root {
+	--section-icon: url(/media/icons/texto.png);
+}
+
 main {
 	width: 100%;
 }

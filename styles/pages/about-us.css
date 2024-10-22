@@ -1,6 +1,10 @@
 @import "/styles/global.css";
 @import "/styles/responsive.css";
 
+:root {
+	--section-icon: url(/media/icons/actriz.png);
+}
+
 
 .body__content {
 	width: 100%;
@@ -12,15 +16,15 @@ main {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding-top: 80px;
+	padding-top: 100px;
 }
 
 .group__section {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	gap: 28px;
 }
 
 .members {
@@ -29,6 +33,7 @@ main {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	gap: 20px;
 }
 
 .crew__member {
@@ -37,6 +42,7 @@ main {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	gap: 24px;
 }
 
 .member__photo {
@@ -51,6 +57,19 @@ main {
 	
 }
 
+.member__info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 8px;
+}
+
+.member__info h4 {
+	text-transform: uppercase;
+}
+
 
 /* ---------------Responsive-------------- */
 
@@ -59,6 +78,20 @@ main {
     :root {
 
     }
+
+	.group__section {
+		width:700px;
+
+	}
+
+	.members {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.crew__member {
+		flex:1;
+	}
 }
 
 

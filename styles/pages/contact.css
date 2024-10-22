@@ -3,7 +3,7 @@
 @import "/styles/pages/utilities/forms.css";
 
 :root {
-	
+	--section-icon: url(/media/icons/contacto.png);
 }
 
 main {
