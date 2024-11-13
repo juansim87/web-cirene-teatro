@@ -9,12 +9,11 @@
 
 main {
 	width: 100%;
-	min-height: 76vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding-top: 72px;
+	padding-top: 120px;
 }
 
 .form__personal-info {
