@@ -75,6 +75,10 @@
 		background-image: url("/media/images/eloisa-black-op.jpg");
 	}
 
+	.playing__image {
+		max-width: 380px;
+	}
+
 	.blog__content {
 		gap: 40px;
 	}

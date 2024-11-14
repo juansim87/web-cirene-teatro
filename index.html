@@ -96,10 +96,22 @@
 								<h3>Hermanas</h3>
 							</div>
 							<div class="playing__image">
-								<img
-									src="/media/posters/cartel-hermanas.webp"
-									alt="cartel de la obra Hermanas"
-								/>
+								<picture>
+									<source
+										srcset="/media/posters/cartel-hermanas-270px.avif"
+										media="(max-width: 480px)"
+										type="image/avif"
+									/>
+									<source
+										srcset="/media/posters/cartel-hermanas-400px.avif"
+										media="(min-width: 481px)"
+										type="image/avif"
+									/>
+									<img
+										src="/media/posters/cartel-hermanas.jpg"
+										alt="Cartel de la obra Hermanas"
+									/>
+								</picture>
 							</div>
 							<a href="/pages/ticketing/ticketing.html">
 								<div class="playing__booking">
