@@ -160,10 +160,16 @@ header {
 
 .hidden-menu {
 	display: none;
+	position: absolute;
+    right: 68px;
+    top: 12px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
 }
 
 input:checked ~ .hidden-menu {
 	display: block;
+	transition: 0.2s;
 }
 
 #menu {
