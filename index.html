@@ -33,9 +33,23 @@
 								width="Logo de Cirene Teatro de cabeza de león"
 							/>
 						</div>
-						<div class="menu__button" role="button">
-							<img src="/media/icons/menu-white.png" alt="Botón de menu" />
-						</div>
+						<input type="checkbox" id="menu" />
+						<label for="menu">
+							<div class="menu__button">
+								<img src="/media/icons/menu-white.png" alt="Botón de menu" />
+							</div>
+						</label>
+						<ul class="hidden-menu">
+							<li><a href="/index.html">Inicio</a></li>
+							<li><a href="/pages/about-us/about-us.html">El grupo</a></li>
+							<li><a href="/pages/record/record.html">Historial</a></li>
+							<li>
+								<a href="/pages/ticketing/ticketing.html" class="highlighted">
+									Reservas
+								</a>
+							</li>
+							<li><a href="/pages/contact/contact.html">Contacto</a></li>
+						</ul>
 					</div>
 				</nav>
 				<nav class="nav__not-mobile">
@@ -55,10 +69,12 @@
 								<li>
 									<a href="/pages/record/record.html">Historial</a>
 								</li>
-								<li><a href="/pages/contact/contact.html">Contacto</a></li>
 								<li>
-									<a href="/pages/ticketing/ticketing.html">Reservas</a>
+									<a href="/pages/ticketing/ticketing.html" class="highlighted">
+										Reservas
+									</a>
 								</li>
+								<li><a href="/pages/contact/contact.html">Contacto</a></li>
 							</ul>
 							<div class="nav__search">
 								<label for="site-search">

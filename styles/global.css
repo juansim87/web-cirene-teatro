@@ -81,7 +81,6 @@ h2::after {
 	width: 32px;
 	display: inline-block;
 	margin: 0 16px;
-	
 }
 
 h3 {
@@ -159,12 +158,33 @@ header {
 	width: 100%;
 }
 
+.hidden-menu {
+	display: none;
+}
+
+input:checked ~ .hidden-menu {
+	display: block;
+}
+
+#menu {
+	display: none;
+}
+
 .menu__button {
 	width: 40px;
 }
 
 .menu__button img {
 	width: 100%;
+}
+
+.hidden-menu li {
+	display: block;
+	padding: 10px;
+}
+
+.highlighted {
+	color: rgba(255, 166, 0, 0.874);
 }
 
 main {
