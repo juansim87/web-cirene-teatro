@@ -1,6 +1,6 @@
-# Entre Bambalinas Teatro Web - Juan Simón Abad 
+# Cirene Teatro Web - Juan Simón Abad 
 
-Página web del grupo de teatro ficticio Entre Bambalinas Teatro
+Página web del grupo de teatro ficticio Cirene Teatro
 
 ## Descripción
 
@@ -23,7 +23,5 @@ En general el mayor problema y por lo que más me ha costado arrancar ha sido el
 El mayor problema a nivel código ha sido implementar la imagen de fondo de pantalla del inicio solo con html. De momento se puede encontrar como una imagen normal en bloque.
 
 El proyecto ha sido de mucha ayuda para repasar todo lo que hemos dado en estas últimas semanas. Ayuda a fijar los conceptos y aunque finalmente no he implementado ciertos elementos como la etiqueta de vídeo he estado investigando sobre ellos.
-
-Aunque obviamente el proyecto está planteado para que busquemos material en internet, creo que no estaría de más poner a disposición de los alumnos una minibiblioteca de recursos como botones o imágenes que puedan usarse en cualquier proyecto para ayudar a arrancarlo.
 
 Aparte de esto, durante las lecciones hemos recibido todos los elementos necesarios para montar una página sencilla, así que el ejercicio ha sido tremendamente útil.

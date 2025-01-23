@@ -35,8 +35,11 @@
 						</div>
 						<input type="checkbox" id="menu" />
 						<label for="menu">
-							<div class="menu__button">
+							<div class="menu__button menu__icon-open">
 								<img src="/media/icons/menu-white.png" alt="Botón de menu" />
+							</div>
+							<div class="menu__button menu__icon-close">
+								<img src="/media/icons/menu-cerrar-white.png" alt="Botón de cerrar menú" />
 							</div>
 						</label>
 						<ul class="hidden-menu">
@@ -69,10 +72,12 @@
 								<li>
 									<a href="/pages/record/record.html">Historial</a>
 								</li>
-								<li><a href="/pages/contact/contact.html">Contacto</a></li>
 								<li>
-									<a href="/pages/ticketing/ticketing.html">Reservas</a>
+									<a href="/pages/ticketing/ticketing.html" class="highlighted">
+										Reservas
+									</a>
 								</li>
+								<li><a href="/pages/contact/contact.html">Contacto</a></li>
 							</ul>
 							<div class="nav__search">
 								<label for="site-search">

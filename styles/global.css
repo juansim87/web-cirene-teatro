@@ -161,10 +161,10 @@ header {
 .hidden-menu {
 	display: none;
 	position: absolute;
-    right: 68px;
-    top: 12px;
-    background-color: var(--primary-color);
-    border-radius: 8px;
+	right: 0;
+    top: 100%;
+	background-color: var(--primary-color);
+	border-radius: 8px;
 }
 
 input:checked ~ .hidden-menu {
@@ -177,11 +177,20 @@ input:checked ~ .hidden-menu {
 }
 
 .menu__button {
+	display: none;
 	width: 40px;
 }
 
 .menu__button img {
 	width: 100%;
+}
+
+#menu:not(:checked) + label .menu__icon-open {
+	display: block;
+}
+
+#menu:checked + label .menu__icon-close {
+	display: block;
 }
 
 .hidden-menu li {
