@@ -3,7 +3,7 @@
 		--container-width: 90%;
 		--title-size: 80px;
 		--section-title-size: 48px;
-		--play-title-size: 32px;
+		--play-title-size: 24px;
 		--year-font-size: 26px;
 		--synopsis-font-size: 24px;
 		--parr-line-height: 1.2em;
@@ -91,10 +91,15 @@
 
 	.article {
 		max-width: 100%;
+		min-height: 424px;	
 	}
 
 	.article__image {
 		max-width: 320px;
+	}
+
+	.article__image img {
+		height: 100%;
 	}
 
 	.article__text {
@@ -107,7 +112,7 @@
 		--container-width: 80%;
 		--title-size: 100px;
 		--section-title-size: 72px;
-		--play-title-size: 38px;
+		--play-title-size: 30px;
 		--year-font-size: 42px;
 		--synopsis-font-size: 32px;
 		--parr-font-size: 20px;
@@ -117,6 +122,11 @@
 	h1 {
 		margin-top: -16px;
 		letter-spacing: 18px;
+	}
+
+	.article {
+		max-width: 100%;
+		min-height: 512px;	
 	}
 
 }

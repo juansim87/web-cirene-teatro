@@ -73,4 +73,4 @@ Este proyecto ha sido totalmente desarrollado por Juan Simón Abad.
 ## Notas Adicionales / FAQ
 1. El proyecto comenzó a codificarse en mobile responsivo, aunque el planteamiento previo está hecho en formato desktop para facilitarme la organización inicial de los bloques.
 2. La paleta de colores elegida parte de los diseños previos del grupo: el color azul principal permanece y se ha buscado gracias a la web [Coolors](https://coolors.co/) un color de fondo oscuro que combinara bien con él.
-3. La web pretende ser accesible y con un aspecto simple, a la par que elegante y profesional.
+3. La web pretende ser accesible y con un aspecto simple, y al mismo tiempo elegante y profesional.
